@@ -3,32 +3,23 @@ package ISCI100DAY;
 public class main {
 
     public static void main(String[] args) {
-        // Deklarasi variabel dengan tipe data
-        int angkaBulat = 42;
-        double angkaPecahan = 3.14;
-        String teks = "Halo, dunia!";
-        boolean benar = true;
+        // membuat variabel 
+        String nama, alamat;
+        int umur;
+        double tinggi_badan;
 
-        // Menampilkan nilai variabel
-        System.out.println("Angka bulat: " + angkaBulat);
-        System.out.println("Angka pecahan: " + angkaPecahan);
-        System.out.println("Teks: " + teks);
-        System.out.println("Boolean: " + benar);
+        // mengisi variabel
+        nama = "fitrah azahra";
+        alamat = "karossa";
+        umur = 20;
+        tinggi_badan = 152;
 
-        // Menggunakan variabel untuk operasi
-        int hasilPenjumlahan = angkaBulat + 10;
-        double hasilPengurangan = angkaPecahan - 1.0;
+        // mencetak ke layar isi variabel
+        System.out.println("nama : " + nama);
+        System.out.println("alamat : " + alamat);
+        System.out.println("umur : " + umur);
+        System.out.println("tinggi_badan : " + tinggi_badan);
 
-        // Menampilkan hasil operasi
-        System.out.println("Hasil penjumlahan: " + hasilPenjumlahan);
-        System.out.println("Hasil pengurangan: " + hasilPengurangan);
-
-        // Menggabungkan teks
-        String namaDepan = "John";
-        String namaBelakang = "Doe";
-        String namaLengkap = namaDepan + " " + namaBelakang;
-        System.out.println("Nama lengkap: " + namaLengkap);
     }
-}
 
 }
